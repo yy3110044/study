@@ -4,8 +4,18 @@ import java.io.*;
 import java.nio.charset.Charset;
 import java.util.*;
 
+import javafx.scene.Scene;
+import javafx.scene.layout.BorderPane;
+
 public class Application {
-    public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
+		BorderPane root = new BorderPane();
+		Scene scene = new Scene(root, 400, 400);
+        scene.getStylesheets().add(Application.class.getResource("application.css").toExternalForm());
+
+	}
+	
+    public static void main2(String[] args) throws Exception {
     	File file = new File("C:\\Users\\49803\\Desktop", "号码.txt");
     	FileReader fr = new FileReader(file, Charset.forName("UTF-8"));
     	BufferedReader br = new BufferedReader(fr);
