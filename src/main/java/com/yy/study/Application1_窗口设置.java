@@ -9,7 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
-public class MyApplication1 extends Application {
+public class Application1_窗口设置 extends Application {
 
 	@Override
 	public void start(Stage stage) throws Exception {

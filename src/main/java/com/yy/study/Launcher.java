@@ -2,8 +2,8 @@ package com.yy.study;
 
 import javafx.application.Application;
 
-public class Main {
+public class Launcher {
 	public static void main(String[] args) {
-		Application.launch(MyApplication1.class, args);
+		Application.launch(Application4_窗口模态.class, args);
 	}
 }
